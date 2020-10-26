@@ -1,0 +1,19 @@
+{
+    "name": "jandelson/meubolao",
+    "description": "Gestão de jogos de bolão e sorteios no geral",
+    "authors": [
+        {
+            "name": "Jandelson  Oliveira",
+            "email": "jandelson_oliveira@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppBolao\\": "src/"
+        }
+     }
+}
